@@ -1,0 +1,154 @@
+.home-about {
+    margin: 0;
+    margin-bottom: 100px;
+
+    &__heading {
+        display: block;
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 57px;
+        color: #5a8cae;
+    }
+
+    .border-box {
+        display: block;
+        width: 100%;
+        max-width: 1600px;
+        height: 5px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        background: #5a8cae;
+        border-radius: 3px;
+    }
+
+    &__box {
+        display: flex;
+        width: 100%;
+        max-width: 1600px;
+        justify-content: space-between;
+    }
+
+    .institute-img {
+        width: 1000%;
+        max-width: 1010px;
+        height: 1000%;
+        max-height: 700px;
+        margin-right: 35px;
+        border-radius: 5px;
+    }
+
+    &__institute-info {
+        display: block;
+        margin: 0;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #242424;
+    }
+
+    &__list {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    &__list--section {
+        display: block !important;
+        padding: 45px;
+        background: #f4f7fb;
+        box-shadow: inset 0px 0px 4px rgba(90, 140, 174, 0.25);
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 335px;
+        margin: 0;
+        margin-bottom: 40px;
+        padding: 40px;
+        background: #ffffff;
+        box-shadow: 0px 0px 4px rgba(90, 140, 174, 0.25);
+        border-radius: 10px;
+
+        &__box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        &__info {
+            font-family: "Mazzard";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 30px;
+            color: #242424;
+        }
+    }
+
+    &__span {
+        display: block;
+        margin-left: 25px;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 40px;
+        color: #5a8cae;
+    }
+
+    &__list--mobile {
+        display: none !important;
+    }
+}
+
+@include media-max(1360px) {
+    .home-about {
+        &__box {
+            display: block;
+        }
+    }
+
+    .institute-img {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+}
+
+@include media-max(365) {
+    .home-about {
+        &__heading {
+            font-size: 26px !important;
+        }
+    }
+}
+
+@include media-max(1340px) {
+    .home-about {
+        &__list--mobile {
+            display: flex !important;
+        }
+        &__list--desktop {
+            display: none !important;
+        }
+    }
+}
+
+@include media-max(700px) {
+    .home-box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

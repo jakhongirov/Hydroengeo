@@ -1,0 +1,16 @@
+@include media-max(540px){
+   .new{
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+         font-size: 32px;
+      }
+
+      p{
+         font-size: 18px;
+      }
+   }
+}

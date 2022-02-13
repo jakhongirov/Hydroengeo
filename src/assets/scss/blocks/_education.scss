@@ -1,0 +1,68 @@
+.education {
+  margin: 0;
+}
+
+.education__info-box {
+  display: block;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  &__heading {
+    display: block;
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #242424;
+  }
+
+  &__info {
+    display: block;
+    margin: 0;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #242424;
+  }
+
+  &__info--margin {
+    margin-bottom: 109px !important;
+  }
+
+  &__info + &__info {
+    margin: 0;
+    margin-top: 45px;
+  }
+}
+
+.education__img-box {
+  display: flex;
+  justify-content: space-between;
+
+  &__img {
+    width: 100% !important;
+    max-width: 580px !important;
+    min-width: 190px !important;
+    border-radius: 10px;
+  }
+}
+
+@include media-max(1180px) {
+  .education__info-box__info--margin {
+    margin-bottom: 20px !important;
+  }
+
+  .education__img-box {
+    flex-direction: column;
+  }
+
+  .education__img-box__img {
+    margin-bottom: 20px !important;
+  }
+}

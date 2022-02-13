@@ -1,0 +1,144 @@
+.chemical {
+    .container {
+        width: 100%;
+        max-width: 1280px;
+    }
+
+    &__info {
+        display: block;
+        margin: 0;
+        margin-bottom: 20px;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 40px;
+        color: #242424;
+
+        &--margin-bottom-big {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__list {
+        display: block;
+        margin: 0;
+        margin-bottom: 80px;
+        padding: 0;
+    }
+
+    &__images-box {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        margin-bottom: 40px;
+
+        &--start {
+            justify-content: start;
+            margin-bottom: 80px;
+        }
+
+        &--flex {
+            display: flex;
+            margin: 0;
+            margin-bottom: 40px;
+        }
+    }
+
+    .image1 {
+        display: block;
+        width: 100%;
+        max-width: 745px;
+        margin: 0;
+        margin-bottom: 165px;
+    }
+
+    .image2 {
+        display: block;
+        width: 100%;
+        max-width: 270px;
+    }
+
+    .image3 {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin-left: 60px;
+    }
+
+    .image4 {
+        display: block;
+        width: 100%;
+        max-width: 270px;
+        margin-left: 60px;
+
+        &--none-desktop {
+            display: none;
+        }
+    }
+
+    .image5 {
+        display: block;
+        width: 100%;
+        max-width: 572px;
+        margin-bottom: 20px;
+    }
+
+    .image6 {
+        display: block;
+        width: 100%;
+        max-width: 670px;
+        margin-bottom: 20px;
+    }
+
+    .image7 {
+        display: block;
+        width: 100%;
+        max-width: 625px;
+        margin-bottom: 20px;
+    }
+}
+
+@include media-max(1150px) {
+    .chemical {
+        &__images-box {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+
+@include media-max(700px) {
+    .chemical {
+        .image4 {
+            &--none-desktop {
+                display: block;
+                margin: 0;
+                margin-bottom: 20px;
+            }
+
+            &--none-mobile{
+                display: none;
+            }
+        }
+    }
+}
+
+@include media-max(700px) {
+    .chemical {
+        &__images-box--flex{
+            display: block;
+        }
+
+        .image2{
+            margin: 0;
+            margin-bottom: 20px;
+        }
+
+        .image3{
+            margin: 0;
+            margin-bottom: 20px;
+        }
+    }
+}
+

@@ -1,0 +1,56 @@
+#functions {
+  .small-container {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 50px;
+    padding-bottom: 200px;
+  }
+
+  .heading {
+    margin-bottom: 60px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #242424;
+  }
+
+  .secondary-heading {
+    margin-bottom: 20px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #242424;
+  }
+
+  .text {
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    color: #000000;
+  }
+
+  .margin-bottom-50 {
+    margin-bottom: 50px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .heading {
+      font-size: 30px;
+    }
+
+    .secondary-heading {
+      font-size: 28px;
+    }
+
+    .text {
+      font-size: 22px;
+    }
+  }
+}

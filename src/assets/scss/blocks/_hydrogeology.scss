@@ -1,0 +1,209 @@
+.hydrogeology {
+	margin-bottom: 250px;
+
+	.container {
+		width: 100%;
+		max-width: 1280px !important;
+		margin: 0 auto !important;
+		padding: 0 20px;
+	}
+
+	.hydrogeology__heading-width {
+		display: block;
+		width: 100%;
+		max-width: 990px;
+		font-size: 40px;
+	}
+
+	.workers--padding {
+		padding-bottom: 0;
+	}
+
+	.hydrogeology__info {
+		display: block;
+		margin: 0;
+		margin-bottom: 5px;
+		font-family: 'Mazzard';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 26px;
+		line-height: 40px;
+		color: #242424;
+
+		&--padding-left {
+			padding-left: 40px;
+		}
+
+		&--margin-small {
+			margin-bottom: 20px;
+		}
+
+		&--margin-big {
+			margin-bottom: 40px;
+		}
+
+		&--margin-bigest {
+			margin-bottom: 80px;
+		}
+
+		&--margin-middle {
+			margin-bottom: 30px;
+		}
+
+		&--bold {
+			font-size: 30px;
+			font-weight: 600;
+		}
+
+		&--text {
+			text-align: center;
+		}
+
+		&--size {
+			width: 100%;
+			max-width: 915px;
+			font-size: 26px;
+			margin: 0 auto;
+			margin-bottom: 80px;
+		}
+	}
+
+	.hydrogeology__service {
+		margin: 0;
+		margin-bottom: 10px;
+		padding: 0;
+
+		&--margin-bottom {
+			margin-bottom: 40px;
+		}
+	}
+
+	.conventions__list {
+		display: block;
+		width: 100%;
+		max-width: 910px;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+
+	.conventions__item {
+		position: relative;
+		padding-left: 130px;
+	}
+
+	.conventions__item-box {
+		position: absolute;
+		display: block;
+		top: -15%;
+		left: 0;
+		width: 100px;
+		height: 50px;
+
+		&--blue {
+			background: #aedbf1;
+		}
+
+		&--red {
+			top: 10%;
+			background: #dc2b1a;
+		}
+
+		&--yellow {
+			top: 10%;
+			background: #fadf12;
+		}
+
+		&--image1 {
+			top: 10%;
+			background-image: url('../../images/hydrogeology-bg1.png');
+			background-size: 100px 50px;
+		}
+
+		&--image2 {
+			top: 10%;
+			background-image: url('../../images/hydrogeology-bg2.png');
+			background-size: 100px 50px;
+		}
+	}
+
+	.hydrogeology__images-box {
+		display: flex;
+		width: 100%;
+		max-width: 1280px;
+		justify-content: space-between;
+		margin: 0;
+		margin-bottom: 120px;
+
+		&--margin {
+			margin-bottom: 20px;
+		}
+
+		&--start {
+			justify-content: start !important;
+		}
+	}
+
+	.image5 {
+		display: block;
+		width: 100%;
+		max-width: 1280px;
+		margin-bottom: 10px;
+	}
+
+	.image6 {
+		display: block;
+		width: 100%;
+		max-width: 1025px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.image7 {
+		display: block !important;
+		width: 100% !important;
+		max-width: 430px !important;
+		margin: 0 !important;
+		margin-bottom: 20px;
+
+		&--margin-bottom {
+			margin-bottom: 10px;
+		}
+	}
+
+	.image8 {
+		display: block;
+		margin-left: 65px !important;
+	}
+
+	@include media-max(1150px) {
+		.hydrogeology__images-box {
+			display: block;
+		}
+
+		.image1-box{
+			margin-bottom: 20px;
+		}
+
+		.image1{
+			width: 100% !important;
+			max-width: 540px !important;
+		}
+
+		.image3-box{
+			margin-bottom: 20px;
+		}
+
+		.image7{
+			width: 100% !important;
+			max-width: 251px !important;
+		}
+
+		.image8{
+			margin: 0;
+		}
+
+		.hydrogeology__images--mobile-flex{
+			display: flex;
+		}
+	}
+}

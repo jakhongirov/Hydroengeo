@@ -1,0 +1,47 @@
+#financial {
+  .small-container {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 50px;
+    text-align: center;
+  }
+
+  .heading {
+    margin-bottom: 60px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: left;
+  }
+
+  .secondary-heading {
+    margin-bottom: 20px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .mt100 {
+    margin-top: 100px;
+  }
+
+  .mt40 {
+    margin-top: 40px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .heading,
+    .secondary-heading {
+      font-size: 30px;
+    }
+  }
+}

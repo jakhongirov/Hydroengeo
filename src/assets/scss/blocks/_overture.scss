@@ -1,0 +1,594 @@
+#overture {
+  .small-container {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 50px;
+    position: relative;
+  }
+
+  .heading {
+    width: 100%;
+    max-width: 994px;
+    margin-bottom: 43px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #242424;
+  }
+
+  .workers--padding {
+    padding-bottom: 0;
+  }
+
+  .workers {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+
+    .avatar {
+      width: 100%;
+      max-width: 240px;
+      margin-bottom: 5px;
+    }
+
+    &__card {
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding: 60px 0 56px 60px;
+      background: #f4f7fb;
+      border-radius: 10px;
+    }
+
+    &__info {
+      width: 100%;
+      margin-left: 100px;
+      min-height: 100%;
+    }
+
+    &__info-row {
+      height: 20% !important;
+
+      td:nth-child(1) {
+        font-family: "Mazzard", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 36px;
+        color: #242424;
+      }
+
+      td:nth-child(2) {
+        width: 539px;
+        font-family: "Mazzard", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 36px;
+        color: #242424;
+      }
+    }
+  }
+
+  .dzz {
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    color: #242424;
+
+    ul {
+      margin-bottom: 120px;
+      padding-left: 30px;
+      list-style: disc;
+    }
+  }
+
+  .space {
+    display: inline-block;
+    width: 60px;
+  }
+
+  .text {
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    color: #242424;
+  }
+
+  .images__wrapper {
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .images {
+    width: 100%;
+    max-width: 1049px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .images__item:first-child {
+    margin-right: 30px;
+  }
+
+  .mobile--inner-text {
+    display: none;
+  }
+
+  .images__texts {
+    position: relative;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-width: 1473px;
+    display: flex;
+  }
+
+  .images__item-text {
+    // position: absolute;
+    // top: 100%;
+    // left: -10px;
+    width: 805px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    color: #242424;
+  }
+
+  .images__item-text:first-child {
+    margin-right: 10px;
+  }
+
+  .images__inner-item:first-child {
+    margin-bottom: 17px;
+  }
+
+  .map-wrapper {
+    margin-bottom: 100px;
+  }
+
+  // Problems
+
+  .problems {
+    margin-bottom: 70px;
+    &__heading {
+      margin-bottom: 20px;
+      text-align: center;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 40px;
+      color: #000000;
+    }
+
+    &__list {
+      padding-left: 20px;
+      list-style: disc;
+    }
+
+    &__list-item {
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 40px;
+      color: #000000;
+    }
+  }
+
+  .damages {
+    margin-bottom: 70px;
+    &__heading {
+      margin-bottom: 20px;
+      text-align: center;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 40px;
+      color: #000000;
+    }
+
+    &__image {
+      margin-bottom: 40px;
+    }
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      &-item {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .landslide {
+    margin-bottom: 30px;
+    &__heading {
+      margin-bottom: 20px;
+      text-align: center;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 40px;
+      color: #000000;
+    }
+
+    &__image {
+      margin-bottom: 70px;
+    }
+
+    .scheme-image {
+      margin-bottom: 50px;
+    }
+
+    &__text {
+      margin-bottom: 30px;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 40px;
+      color: #000000;
+    }
+  }
+
+  .naugarzan {
+    margin-bottom: 80px;
+    &__desc {
+      margin-top: 20px;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 40px;
+      color: #000000;
+    }
+  }
+
+  .angren__img-wrapper {
+    position: relative;
+    margin-bottom: 80px;
+
+    .angren__title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      max-width: 442px;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 40px;
+      color: #000000;
+    }
+  }
+
+  .graph {
+    margin-bottom: 80px;
+    &__heading {
+      margin-bottom: 10px;
+      text-align: center;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 40px;
+      color: #000000;
+    }
+  }
+
+  .turkskiy {
+    &__desc {
+      margin-bottom: 80px;
+      margin-top: 20px;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 40px;
+      color: #000000;
+    }
+
+    &__heading,
+    &__text {
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 40px;
+      color: #000000;
+    }
+
+    &__text {
+      margin-bottom: 30px;
+    }
+
+    &__ogp {
+      margin-bottom: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .turkskiy__ogp-item-text {
+      max-width: 510px;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 40px;
+      color: #000000;
+    }
+
+    &__ogp-item:first-child {
+      margin-right: 10px;
+    }
+  }
+
+  .proccess {
+    &__heading {
+      margin-bottom: 60px;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 40px;
+      color: #000000;
+    }
+
+    &__problems {
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 40px;
+      color: #000000;
+    }
+
+    &__problems-list {
+      margin-bottom: 30px;
+      padding-left: 40px;
+      list-style: disc;
+    }
+
+    &__desc {
+      margin-bottom: 60px;
+    }
+
+    &__item::first-letter {
+      margin-left: 80px;
+    }
+  }
+
+  @media only screen and (max-width: 1170px) {
+    .workers__card {
+      flex-direction: column;
+      padding: 50px 0 40px 0;
+    }
+
+    .avatar {
+      margin: 0 auto;
+      margin-bottom: 40px !important;
+    }
+
+    .angren__img-wrapper {
+      .angren__title {
+        max-width: 300px;
+      }
+    }
+
+    .workers {
+      &__info {
+        width: 100%;
+        max-width: 65%;
+        margin-left: 0;
+        padding-left: 70px;
+      }
+
+      &__info-row {
+        display: flex;
+        flex-direction: column;
+        td {
+          margin-bottom: 15px;
+        }
+        td:nth-child(1) {
+          font-weight: 600;
+        }
+
+        td:nth-child(2) {
+          width: 100%;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .angren__img-wrapper {
+      margin-bottom: 230px;
+      .angren__title {
+        max-width: 100%;
+        font-weight: normal;
+        top: 100%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    .workers__info {
+      margin-left: 0;
+      padding-left: 40px;
+    }
+
+    .workers {
+      &__info-row {
+        td:nth-child(1) {
+          font-size: 24px;
+        }
+
+        td:nth-child(2) {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .space {
+      width: 20px;
+    }
+
+    .dzz {
+      font-size: 22px;
+      line-height: 32px;
+      ul {
+        padding-left: 10px;
+      }
+    }
+
+    .damages {
+      &__list-item {
+        margin-bottom: 20px;
+      }
+    }
+
+    .images {
+      flex-direction: column;
+    }
+
+    .images__item {
+      text-align: center;
+    }
+
+    .images__texts {
+      display: none;
+    }
+
+    .mobile--inner-text {
+      width: 100%;
+      max-width: 100%;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .images__item:first-child {
+      margin-right: 0;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    .turkskiy__ogp {
+      flex-direction: column;
+    }
+
+    .turkskiy__ogp-item:first-child {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 470px) {
+    .heading {
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    .text {
+      font-size: 22px;
+      line-height: 32px;
+    }
+
+    .mobile--inner-text {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .angren__img-wrapper {
+      margin-bottom: 340px;
+      .angren__title {
+      }
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .workers .avatar {
+      max-width: 180px;
+    }
+
+    .landslide {
+      &__heading {
+        font-size: 22px;
+      }
+
+      &__text {
+        font-size: 20px;
+      }
+    }
+
+    .naugarzan {
+      &__desc {
+        font-size: 22px;
+      }
+    }
+
+    .angren__img-wrapper .angren__title {
+      font-size: 24px;
+    }
+
+    .turkskiy {
+      &__text {
+        font-size: 22px;
+      }
+    }
+
+    .proccess {
+      &__heading {
+        font-size: 24px;
+      }
+
+      &__problems {
+        font-size: 20px;
+      }
+
+      &__problems-list {
+        padding-left: 0;
+      }
+
+      &__item::first-letter {
+        margin-left: 25px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .dzz {
+      font-size: 18px;
+      ul {
+        padding-left: 0;
+      }
+    }
+
+    .problems__list-item {
+      font-size: 20px;
+    }
+  }
+}

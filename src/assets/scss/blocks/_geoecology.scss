@@ -1,0 +1,218 @@
+.geoecology {
+	.container {
+		width: 100%;
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 20px;
+	}
+
+	&__info {
+		display: block;
+		margin: 0;
+		margin-bottom: 40px;
+		font-family: 'Mazzard';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 26px;
+		line-height: 40px;
+		color: #242424;
+
+		&--margin-small {
+			margin-bottom: 20px;
+		}
+
+		&--margin-none {
+			margin: 0;
+		}
+
+		&--padding {
+			padding-left: 30px;
+		}
+
+		&--text {
+         width: 100%;
+         max-width: 500px;
+			margin: 0 auto;
+		}
+
+		&--bold {
+			font-weight: bold;
+		}
+
+		span {
+			padding-left: 40px;
+		}
+	}
+
+	&__images-box {
+		display: flex;
+      width: 100%;
+      max-width: 1280px;
+		justify-content: space-between;
+		margin: 0;
+		margin-bottom: 40px;
+
+		&--flex {
+			display: flex;
+		}
+	}
+
+	&__list {
+		display: block;
+		margin: 0;
+		margin-bottom: 40px;
+		// padding-left: 0px;
+		list-style-type: disc;
+	}
+
+	.image1 {
+		display: block;
+		width: 100%;
+		max-width: 588px;
+	}
+
+	.image2 {
+		display: block;
+		width: 100%;
+		max-width: 570px;
+	}
+
+	.image3 {
+		display: block;
+		width: 100%;
+		max-width: 1280px;
+	}
+
+	.image4 {
+		display: block;
+		width: 100%;
+		max-width: 500px;
+	}
+
+	.image5 {
+		display: block;
+		width: 100%;
+		max-width: 570px;
+	}
+
+	.image6 {
+		display: block;
+		width: 100%;
+		max-width: 630px;
+	}
+
+	.image7 {
+		display: block;
+		width: 100%;
+		max-width: 627px;
+	}
+
+	.image8 {
+		display: block;
+		width: 100%;
+		max-width: 727px;
+	}
+
+	.image9 {
+		display: block;
+		width: 100%;
+		max-width: 665px;
+	}
+
+	.image10 {
+		display: block;
+		width: 100%;
+		max-width: 560px;
+	}
+
+	.image11 {
+		display: block;
+		width: 100%;
+		max-width: 620px;
+	}
+
+	.image12 {
+		display: block;
+		width: 100%;
+		max-width: 507px;
+	}
+
+	.image13 {
+		display: block;
+		width: 100%;
+		max-width: 526px;
+	}
+
+	.image14 {
+		display: block;
+		width: 100%;
+		max-width: 400 !important;
+	}
+
+   .image15{
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      margin-left: 10px;
+   }
+
+   .image16{
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      margin-left: 10px;
+   }
+
+   .image17{
+      display: block;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+   }
+
+   .image18{
+      display: block;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+   }
+
+   .image19{
+      display: block;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+   }
+}
+
+@include media-max(1230px){
+   .geoecology{
+      &__images-box {
+         display: block;
+         // width: 100%;
+         // max-width: 1280px;
+         // margin: 0 auto;
+      }
+
+      .image10{
+         margin: 0 !important;
+      }
+   }
+}
+
+@include media-max(655px){
+   .geoecology{
+      &__info{
+         &--padding{
+            padding: 0;
+         }
+
+         span{
+            padding: 10px;
+         }
+      }
+   }
+}

@@ -1,0 +1,209 @@
+.technical {
+    .container {
+        width: 100%;
+        max-width: 1280px;
+    }
+
+    &__info {
+        display: block;
+        margin: 0;
+        margin-bottom: 20px;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 40px;
+        color: #000000;
+
+        &--text {
+            text-align: center;
+        }
+
+        &--bold {
+            display: block;
+            font-family: "Mazzard";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 35px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            text-align: center !important;
+        }
+    }
+
+    .technical__info--text-heading {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    &__images-box {
+        display: flex;
+        width: 100%;
+        max-width: 1280px;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-bottom: 40px;
+
+        &--center {
+            display: flex !important;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        
+        &--between {
+            display: flex !important;
+            justify-content: space-between;
+        }
+    }
+
+    .mobile-block {
+        display: none;
+    }
+
+    .image1 {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .image2 {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .image3 {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .image4 {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .image5 {
+        display: block;
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .image6 {
+        display: block;
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .image7 {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .image8 {
+        display: block;
+        width: 100%;
+        max-width: 520px;
+    }
+
+    .image9 {
+        display: block;
+        width: 100%;
+        max-width: 620px;
+    }
+
+    .image11 {
+        display: block;
+        width: 100%;
+        max-width: 1013px;
+        margin: 0 auto;
+        margin-bottom: 20px !important;
+    }
+
+    .image12 {
+        display: block;
+        width: 100%;
+        max-width: 1013px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .image13 {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1013px;
+        margin-bottom: 20px;
+    }
+
+    .image14 {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1013px;
+        margin-bottom: 20px;
+    }
+
+    .image15 {
+        display: block;
+        width: 100%;
+        // margin: 0 auto;
+        max-width: 423px;
+        margin-bottom: 20px;
+    }
+
+    .image16 {
+        display: block;
+        width: 100%;
+        max-width: 590px;
+        // margin: 0 auto;
+    }
+}
+
+.technical_image10 {
+    display: block;
+    width: 100%;
+    max-width: 788px !important;
+}
+
+@include media-max(1245px) {
+    .technical__images-box {
+        display: block;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .technical__info--text {
+        text-align: start;
+    }
+
+    .mobile-block {
+        width: 100%;
+        max-width: 1200px;
+        display: block !important;
+    }
+    .mobile-none {
+        display: none !important;
+    }
+
+    .image7 {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@include media-max(917px) {
+    .technical__info--text {
+        text-align: center;
+    }
+}

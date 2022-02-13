@@ -1,0 +1,297 @@
+.groundwater {
+	.container {
+		width: 100%;
+		max-width: 1280px;
+	}
+
+	.groundwater__info {
+		margin: 0;
+		margin-bottom: 20px;
+		font-family: 'Mazzard';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 26px;
+		line-height: 40px;
+		color: #242424;
+
+		&--bold {
+			font-family: 'Mazzard';
+			font-style: normal;
+			font-weight: 600;
+			font-size: 26px;
+			line-height: 31px;
+			text-transform: capitalize;
+			color: #242424;
+		}
+
+		&--text {
+			text-align: center;
+		}
+	}
+
+	.groundwater__list {
+		margin: 0;
+		margin-bottom: 40px;
+		padding: 0;
+		padding-left: 20px;
+		list-style-type: disc;
+	}
+
+	.groundwater__images-box {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 40px;
+	}
+
+	.groundwater__images-box--block {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 40px;
+	}
+
+	.groundwater__info-box {
+		display: flex;
+		align-items: center;
+		margin: 0;
+		margin-bottom: 100px;
+	}
+
+	.groundwater__images-box-2 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 40px;
+	}
+
+	.groundwater__images-box-mobile {
+		display: none;
+	}
+
+	.groundwater__images-box--flex {
+		display: flex;
+	}
+
+	.image1 {
+		display: block;
+		width: 100%;
+		max-width: 500px;
+	}
+
+	.image2 {
+		display: block;
+		width: 100%;
+		max-width: 700px;
+	}
+
+	.image3 {
+		display: block;
+		width: 100%;
+		max-width: 593px;
+	}
+
+	.image4 {
+		display: block;
+		width: 100%;
+		max-width: 563px;
+	}
+
+	.image5,
+	.image6,
+	.image7,
+	.image8 {
+		display: block;
+		width: 100%;
+		max-width: 240px;
+	}
+
+	.image9 {
+		display: block;
+		width: 100%;
+		max-width: 360px;
+	}
+
+	.image10 {
+		display: block;
+		width: 100%;
+		max-width: 412px;
+	}
+
+	.image11 {
+		display: block;
+		width: 100%;
+		max-width: 357px;
+	}
+
+	.image12 {
+		display: block;
+		width: 100%;
+		max-width: 393px;
+	}
+
+	.image13 {
+		display: block;
+		width: 100%;
+		max-width: 573px;
+	}
+
+	.image14 {
+		display: block;
+		width: 100%;
+		max-width: 645px;
+	}
+
+	.image15 {
+		display: block;
+		width: 100%;
+		max-width: 612px;
+	}
+
+	.image16 {
+		display: block;
+		width: 100%;
+		max-width: 290px;
+	}
+
+	.image17 {
+		display: block;
+		width: 100%;
+		max-width: 280px;
+	}
+
+	.image18 {
+		display: block;
+		width: 100%;
+		max-width: 283px;
+	}
+
+	.image19 {
+		display: block;
+		width: 100%;
+		max-width: 244px;
+	}
+
+	.image20 {
+		display: block;
+		width: 100%;
+		max-width: 270px;
+		margin-right: 60px;
+	}
+
+	.image21 {
+		display: block;
+		width: 100%;
+		max-width: 1280px;
+		margin-bottom: 20px;
+	}
+
+	.image22 {
+		display: block;
+		width: 100%;
+		max-width: 505px;
+		margin: 0;
+		margin-bottom: 80px;
+	}
+
+	.image23 {
+		display: block;
+		width: 100%;
+		max-width: 600px;
+	}
+
+	.image24 {
+		display: block;
+		width: 100%;
+		max-width: 630px;
+	}
+
+	.image25 {
+		display: block;
+		width: 100%;
+		max-width: 562px;
+		margin: 0 auto;
+		margin-bottom: 80px;
+	}
+
+	.image26 {
+		display: block;
+		width: 100%;
+		max-width: 324px;
+	}
+
+	.image27,
+	.image28 {
+		display: block;
+		width: 100%;
+		max-width: 367px;
+	}
+
+	.image29 {
+		display: block;
+		width: 100%;
+		max-width: 690px;
+		margin: 0 auto;
+	}
+}
+
+.groundwater__heading--width {
+	width: 100%;
+	max-width: 1025px;
+}
+
+.workers--padding {
+	padding: 0;
+}
+
+@include media-max(1235px) {
+	.groundwater {
+		.groundwater__images-box--block {
+			display: block !important;
+		}
+
+		.image13 {
+			margin-bottom: 20px;
+		}
+
+		.image10 {
+			margin: 0;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@include media-max(1020px) {
+	.groundwater__images-box-2 {
+		display: none !important;
+	}
+
+	.groundwater__images-box-mobile {
+		display: flex !important;
+		justify-content: space-around;
+	}
+}
+
+@include media-max(768px) {
+	.groundwater__images-box {
+		display: block !important;
+	}
+
+	.groundwater__info-box {
+		display: none !important;
+	}
+
+	.groundwater__info--mobile-text {
+		text-align: center;
+	}
+}
+
+@include media-max(525px) {
+	.groundwater__images-box-mobile{
+		display: block !important;
+		width: 100%;
+		max-width: 540px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+}

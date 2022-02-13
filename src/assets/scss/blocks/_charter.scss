@@ -1,0 +1,77 @@
+#charter {
+  .small-container {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+
+  .main-heading {
+    margin-bottom: 100px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #242424;
+  }
+
+  .secondary-heading {
+    margin-bottom: 90px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .inner-heading {
+    margin-bottom: 30px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+  }
+
+  .rules-list {
+    margin-bottom: 20px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+
+    li {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 470px) {
+    .main-heading {
+      font-size: 28px;
+    }
+
+    .secondary-heading {
+      font-size: 28px;
+    }
+
+    .inner-heading {
+      font-size: 20px;
+    }
+
+    .rules-list {
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 370px) {
+    .small-container {
+      padding: 0 35px;
+    }
+  }
+}

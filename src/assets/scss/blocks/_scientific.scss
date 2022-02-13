@@ -1,0 +1,79 @@
+.scientific {
+  margin: 0;
+}
+
+.scientific__list{
+  display: block;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  padding-left: 40px;
+  list-style-type: disc;
+}
+
+.scientific__info-box {
+  display: block;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  &__heading {
+    display: block;
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: #242424;
+  }
+
+  &__info {
+    display: block;
+    margin: 0;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    color: #242424;
+  }
+
+  &__info + &__info {
+    margin: 0;
+    margin-top: 25px;
+  }
+
+  &--margin{
+    margin-bottom: 40px;
+  }
+}
+
+// .scientific__btn {
+//    display: none;
+// }
+
+// @include media-max(1000px) {
+.scientific__btn {
+  position: fixed;
+  // top: 0;
+  bottom: 30px;
+  // left: 0;
+  right: 150px;
+  display: block;
+  z-index: 1000;
+}
+
+@media only screen and (max-width: 1000px) {
+  .scientific__btn {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .scientific__btn {
+  }
+}
+// }

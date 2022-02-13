@@ -1,0 +1,191 @@
+.news {
+    .news__slider__item {
+        display: flex;
+        width: 100% !important;
+        max-width: 1600px !important;
+    }
+
+    .news__slider__item__img {
+        position: relative;
+        display: block;
+        width: 100% !important;
+        max-width: 1100px !important;
+    }
+
+    .news__slider__item__heading {
+        position: absolute;
+        bottom: -10%;
+        right: 0;
+        display: block;
+        padding: 30px;
+        background: #5a8cae;
+        border-radius: 10px;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 47px;
+        color: #ffffff;
+        z-index: 1000;
+        clip-path: polygon(100% 0%, 100% 53%, 100% 100%, 25% 100%, 0 98%, 25% 0%);
+    }
+
+    .news__slider__item__title {
+        display: block;
+        margin: 0;
+        margin-left: 20px;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        color: #242424;
+    }
+
+    .controllers {
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+        margin: 0;
+        margin-left: 80%;
+        margin-bottom: 100px;
+    }
+
+    .controllers-btn {
+        display: block;
+        width: 48px;
+        height: 48px;
+        text-align: center;
+        border: none;
+        background: transparent;
+    }
+
+    .controllers-btn:disabled {
+        background: rgba(37, 49, 49, 0.1);
+    }
+
+    .next-btn {
+        transform: rotate(90deg);
+    }
+
+    .prev-btn {
+        transform: rotate(270deg);
+    }
+
+    .news__border {
+        display: block;
+        width: 100%;
+        max-width: 1200px;
+        height: 5px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        background: #5a8cae;
+        border-radius: 3px;
+    }
+
+    .news__item {
+        display: flex;
+        margin: 0;
+        margin-bottom: 80px;
+    }
+
+    .news__item-img {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        margin-right: 80px;
+    }
+
+    .news__box-time {
+        display: block;
+        margin: 0;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        color: #5a8cae;
+        border-bottom: 3px solid #5a8cae;
+    }
+
+    .news__box-heading {
+        display: block;
+        margin: 0;
+        margin-bottom: 17px;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 33px;
+        color: #242424;
+    }
+
+    .news__box-title {
+        display: block;
+        margin: 0;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        color: #242424;
+    }
+
+    .news__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 25px 0;
+        text-align: center;
+        background: #5a8cae;
+        border: none;
+        border-radius: 10px;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        color: #f4f7fb;
+    }
+
+    .news__btn:hover {
+        opacity: 0.8;
+    }
+}
+
+@include media-max(1050px) {
+    .news__slider__item__title {
+        display: none !important;
+    }
+}
+
+@include media-max(980px) {
+    .news__item {
+        display: block !important;
+    }
+}
+
+@include media-max(635px) {
+    .controllers {
+        margin-left: 70% !important;
+    }
+}
+
+@include media-max(435px) {
+    .controllers {
+        margin-left: 70% !important;
+    }
+}
+
+
+@include media-max(425px) {
+    .controllers {
+        margin: 0 auto!important;
+        margin-bottom: 20px !important;
+    }
+}

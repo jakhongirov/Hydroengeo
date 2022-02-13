@@ -1,0 +1,140 @@
+.international {
+    .international__heading {
+        display: block;
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 57px;
+        color: #64b389;
+    }
+
+    .border-box {
+        display: block;
+        width: 100%;
+        max-width: 1600px;
+        height: 5px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        background: #64b389;
+        border-radius: 3px;
+    }
+
+    .international__box {
+        display: flex;
+        width: 100%;
+        max-width: 1600px;
+        justify-content: space-between;
+    }
+
+    .international__box-img {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .international__info {
+        display: inline-block;
+        width: 100%;
+        max-width: 700px;
+        margin: 0;
+        margin-left: 20px;
+        font-family: "Mazzard";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 35px;
+        color: #242424;
+    }
+
+    .image1 {
+        display: block;
+        width: 100%;
+        width: 450px;
+        height: 100%;
+        height: 280px;
+        margin-bottom: 30px;
+    }
+
+    .image3 {
+        display: block;
+        width: 100%;
+        width: 450px;
+        height: 100%;
+        height: 280px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+    .image2 {
+        display: block;
+        width: 100%;
+        width: 380px;
+        height: 100%;
+        height: 280px;
+        margin-bottom: 30px;
+    }
+
+    .image4 {
+        display: block;
+        width: 100%;
+        width: 380px;
+        height: 100%;
+        height: 280px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+}
+
+@include media-max(1360px){
+    .international__box{
+        display: block !important;
+    }
+
+    .image1 {
+        display: block;
+        width: 100%;
+        max-width: 450px;
+        height: 100% !important;
+        // max-height: 280px;
+        margin-bottom: 30px;
+    }
+
+    .image3 {
+        display: block;
+        width: 100%;
+        max-width: 450px;
+        height: 100% !important;
+        // max-height: 280px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+    .image2 {
+        display: block;
+        width: 100%;
+        max-width: 380px;
+        height: 100% !important;
+        // max-height: 280px;
+        margin-bottom: 30px;
+    }
+
+    .image4 {
+        display: block;
+        width: 100%;
+        max-width: 380px;
+        height: 100% !important;
+        // max-height: 280px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+}
+
+@include media-max(595px){
+    .international__heading{
+        font-size: 32px !important;
+    }
+}

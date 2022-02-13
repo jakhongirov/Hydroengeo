@@ -1,0 +1,124 @@
+#normatives {
+  .small-container {
+    width: 100%;
+    max-width: 1580px;
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+
+  .heading {
+    margin-bottom: 60px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #242424;
+  }
+
+  .bases-list {
+    margin-bottom: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .bases__item {
+    width: 100%;
+    max-width: 462px;
+    margin-bottom: 30px;
+  }
+
+  .w-335 {
+    width: 100%;
+    max-width: 335px;
+    margin: 0 auto;
+  }
+
+  .bases__item + .bases__item {
+    margin-left: 10px;
+  }
+
+  .bases__item:first-child .bases__img-wrapper {
+    padding: 55px 67px;
+    background: #f4f7fb;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .bases__item:nth-child(2) .bases__img-wrapper {
+    padding: 43px 55px;
+    background-image: url("../../images/presidentNew.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  .bases__item:nth-child(3) .bases__img-wrapper {
+    padding: 49px 55px;
+    background-image: url("../../images/portal.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  .bases__text {
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    color: #347397;
+  }
+
+  .regulations {
+    width: 100%;
+    max-width: 492px; //error, must fix
+    margin: 0 auto;
+    padding: 83px 77px;
+    background: #f4f7fb;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    span {
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 34px;
+      line-height: 43px;
+      color: #347397;
+    }
+  }
+
+  @media only screen and (max-width: 1506px) {
+    .bases-list {
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    .regulations {
+      padding: 83px 30px;
+      text-align: center;
+      span {
+        font-size: 28px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 470px) {
+    .heading {
+      font-size: 36px;
+    }
+    .bases__text {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+}

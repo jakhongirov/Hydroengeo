@@ -1,0 +1,205 @@
+#resources {
+  .small-container {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+
+  .heading {
+    margin-bottom: 43px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #242424;
+  }
+
+  .services {
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    color: #242424;
+
+    &__list {
+      margin-bottom: 40px;
+      padding-left: 35px;
+      list-style: disc;
+    }
+
+    &__text {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 40px;
+      color: #242424;
+    }
+  }
+
+  .achievements {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    color: #242424;
+
+    &__heading {
+    }
+  }
+
+  .ground-water {
+    .inner-div {
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    &__heading {
+      text-align: center;
+    }
+
+    &__text {
+      margin-bottom: 20px;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 40px;
+      color: #242424;
+    }
+  }
+
+  .images {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text {
+    margin-bottom: 20px;
+    font-family: "Mazzard", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    color: #000000;
+  }
+
+  .parameters {
+    margin-bottom: 80px;
+    &__list {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-title {
+      text-align: center;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 40px;
+      color: #000000;
+    }
+  }
+
+  .docs {
+    &__heading {
+      margin-bottom: 20px;
+      text-align: center;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 31px;
+      color: #000000;
+    }
+
+    &__list {
+      margin-bottom: 40px;
+      list-style: disc;
+
+      &-item {
+        font-family: "Mazzard", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 40px;
+        color: #000000;
+      }
+    }
+  }
+
+  .monographs {
+    &__heading {
+      margin-bottom: 20px;
+      text-align: center;
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 35px;
+      color: #000000;
+    }
+
+    &__list {
+      font-family: "Mazzard", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 40px;
+      color: #000000;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    .images {
+      flex-direction: column;
+    }
+
+    .parameters {
+      &__list {
+        flex-direction: column;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .achievements__text {
+      font-size: 20px;
+    }
+
+    .services {
+      font-size: 22px;
+    }
+
+    .services__list {
+      padding-left: 10px;
+    }
+
+    .ground-water__text,
+    .text,
+    .docs__list-item,
+    .parameters-title,
+    .docs__heading,
+    .monographs__list {
+      font-size: 22px;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    .achievements__text {
+      font-size: 18px;
+    }
+  }
+}
